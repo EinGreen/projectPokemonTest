@@ -6,4 +6,12 @@
 img {
   width: 100%;
 }
+
+#simulateSquirtle {
+  display: none;
+}
+
+#simulateFinal {
+  display: none;
+}
 /*# sourceMappingURL=battle.css.map */
