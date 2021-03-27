@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pokemonSelection {
+  display: -ms-grid;
+  display: grid;
+}
+
+.pokemonSelection h4 {
+  text-align: center;
+}
+
+.squirtleCard {
+  border-style: double;
+  border-color: rgba(0, 115, 255, 0.653);
+}
+
+.bulbasaurCard {
+  border-style: double;
+  border-color: rgba(86, 172, 0, 0.626);
+}
+
+.fFCard {
+  border-style: dashed;
+}
+/*# sourceMappingURL=style.css.map */

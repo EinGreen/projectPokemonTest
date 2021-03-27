@@ -1,1 +1,33 @@
-@import '_body.scss';
+@import '_rules.scss';
+
+main {
+    display: grid;
+    justify-items: center;
+}
+
+menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pokemonSelection {
+    display: grid;
+
+    h4 {
+        text-align: center;
+    }
+}
+
+.squirtleCard {
+    border-style: double;
+    border-color: rgba(0, 115, 255, 0.653);
+}
+
+.bulbasaurCard {
+    border-style: double;
+    border-color: rgba(86, 172, 0, 0.626);
+}
+
+.fFCard {
+    border-style: dashed;
+}
