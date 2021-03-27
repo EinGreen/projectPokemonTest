@@ -29,17 +29,17 @@ menu {
   text-align: center;
 }
 
-.squirtleCard {
+#squirtleCard {
   border-style: double;
   border-color: rgba(0, 115, 255, 0.653);
 }
 
-.bulbasaurCard {
+#bulbasaurCard {
   border-style: double;
   border-color: rgba(86, 172, 0, 0.626);
 }
 
-.fFCard {
+#fFCard {
   border-style: dashed;
 }
 /*# sourceMappingURL=style.css.map */
